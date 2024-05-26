@@ -187,3 +187,20 @@ textarea {
 .contact a {
   text-decoration: none;
 }
+
+/* responsive styles */
+
+/* mobile devices */
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  #what-i-do-description {
+    padding: 20px;
+  }
+}
